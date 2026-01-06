@@ -1,5 +1,28 @@
 # Python virtual environment (venv)
 
+## 建立 Ed25519 類型的 SSH 公私鑰對
+
+### Windows
+```sh
+ssh-keygen -t ed25519 -C "title"
+```
+
+### macOS / Linux
+```sh
+ssh-keygen -t ed25519 -C "title"
+```
+
+## Clone GitHub 儲存庫
+
+### Windows
+```sh
+git clone path
+```
+### macOS / Linux
+```sh
+git clone path
+```
+
 ## Create a Virtual Environment
 
 ### Windows
